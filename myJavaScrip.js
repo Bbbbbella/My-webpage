@@ -10,10 +10,6 @@
 </head>
 <h1>The onclick Event</h1>
 
-
-
-<p id="demo"></p>
-
 <script>
 document.addEventListener("click", myFunction);
 
