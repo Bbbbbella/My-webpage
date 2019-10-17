@@ -15,7 +15,7 @@
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").addEventListener("click", myFunction);
+document.addEventListener("click", myFunction);
 
 function myFunction() {
   document.getElementById("demo").innerHTML = "Bella";
