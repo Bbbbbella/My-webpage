@@ -2,5 +2,5 @@
 document.getElementById("myButton").addEventListener("click", myFunction);
 
 function myFunction() {
-  document.getElementById("myButton").innerHTML = "Bella";
+  document.getElementById("myButton").style.backgroundColor ="red";
 }
