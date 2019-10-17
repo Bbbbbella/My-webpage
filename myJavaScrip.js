@@ -11,10 +11,10 @@
 <h1>The onclick Event</h1>
 
 <script>
-document.addEventListener("click", myFunction);
+document.getElementById("myButton").addEventListener("click", myFunction);
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Bella";
+  document.getElementById("myButton").innerHTML = "Bella";
 }
 </script>
 
